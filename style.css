@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@400;500&family=Lobster&family=Merienda:wght@400;700&family=Varela+Round&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
+/* font-family: 'Genos', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Varela Round', sans-serif; */
+
+
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+body{
+    background-image: linear-gradient(0deg , #d0bb01, #d4ff00e0, yellow);
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: rgb(221 255 0 / 20%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border: 2px solid white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 70px 10px rgb(48 48 48 / 40%);
+}
+span{
+    display: block;
+    /* width: 100%; */
+    align-items: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 25vmin;
+    height: 25vmin;
+}
+p{
+    font-size: 20px;
+    color: #4e4e4e;
+    font-weight: 500;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 30px;
+    margin: 30px 0;
+    opacity: 0;
+    letter-spacing: 1px;
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+button{
+    display: block;
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: green;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+button:hover{
+    box-shadow: 0 0 20px 1px #00000061;
+}
